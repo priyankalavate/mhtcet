@@ -4,24 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MHT-CET</title>
+    <title>project</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    
-    <h1 class="h11">Study Material for MHT_CET</h1>
-    <img  class="img1"height="500" width="1500" src="assets/img/cet logo.jfif"
-        alt="">
-        <div class="h11 text_center">
-            <h1>SUBJECTS</h1>
+    <nav class="navbar">
+
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+        <a href="history.html">history</a>
+        <a
+            href="https://www.google.com/search?q=wikipedia&oq=wikip&gs_lcrp=EgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyBggBEEUYOTINCAIQLhiDARixAxiABDIKCAMQABixAxiABDIKCAQQABixAxiABDIHCAUQABiABDIKCAYQABixAxiABDIGCAcQBRhA0gEINjk5MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">more</a>
+        <div class="float-right">
+            <a class=" btn btn-primary" href="login">login</a>
+            <a class=" btn btn-warning" href="register">register</a>
         </div>
-        <nav class="a11">
-            <a href="physics.html">1.PHYSICS</a><br>
-            <a href="chemistry.html">2.CHEMISTRY</a><br>
-            <a href="biology.html">3.BIOLOGY</a><br>
-            <a href="mathematics.html">4.MATHEMATICS</a><br>
-        </nav>
+    </nav>
+    <div class="mt-1px">
+        <img class=img-responsivew width="1500px" height="500px" src="data:image/jpeg;base64,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" alt="">
+    </div>
+    <div class="row">
+        <div class="card col4">
+
+            <img src="assets/img/css.jfif" alt="">
+
+            <div>
+                <h2 class="text_centre">css</h2>
+                <p>What are the basic information of CSS?
+                    CSS can define color, font, text alignment, size, borders, spacing, layout and many other
+                    typographic characteristics, and can do so independently for on-screen and printed views. CSS also
+                    defines non-visual styles, such as reading speed and emphasis for aural text readers....<a
+                        href="#">more</a></p>
+            </div>
+        </div>
+        <div class="card col4">
+
+            <img src="assets/img/java.jfif" alt="">
+
+            <div>
+                <h2 class="text_centre">JAVA</h2>
+                <p>Java is a multi-platform, object-oriented, and network-centric language that can be used as a
+                    platform in itself. It is a fast, secure, reliable programming language for coding everything from
+                    mobile apps and enterprise software to big data applications and server-side technologies....<a
+                        href="#">more</a></p>
+            </div>
+        </div>
+        <div class="card col4">
+
+            <img class="img-responsivew" src="assets/img/php.jfif" alt="">
+
+            <div>
+                <h2 class="text_centre">PHP</h2>
+                <p>What is PHP and its work?
+                    PHP performs system functions, i.e. from files on a system it can create, open, read, write, and
+                    close them. PHP can handle forms, i.e. gather data from files, save data to a file, through email
+                    you can send data, return data to the user. You add, delete, modify elements within your database
+                    through PHP.....<a href="#">more</a></p>
+            </div>
+        </div>
+        <div class="card col4">
+
+            <img src="assets/img/html.png" alt="">
+
+            <div>
+                <h2 class="text_centre">HTML</h2>
+                <p>HTML provides a means to create structured documents by denoting structural semantics for text such
+                    as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by
+                    tags, written using angle brackets. Tags such as <img> and <input> directly introduce content into
+                    the page.....<a href="#">more</a></p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="text_centre">copyright@2022 <a class="text-primary" href="#">mini project</a></p>
+    </footer>
 </body>
 
 </html>
